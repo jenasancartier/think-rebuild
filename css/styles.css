@@ -1,8 +1,13 @@
 /* For testing only */
 
-*:not(body):not(html) {
+/**:not(body):not(html) {
   box-sizing:border-box;
   border:1px dashed #000;
+}*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', sans-serif;
 }
 
 .columns {
@@ -33,10 +38,45 @@
   background-size: cover;
 }
 
+.text-box {
+  display: inline-block;
+  float: right;
+  height: 100%;
+  width: 50%;
+  padding: 12px 16px 12px 16px;
+  background-color: rgb(13, 71, 161);
+  position: static;
+}
+
+.text-box h4 {
+  height: 100%;
+  color: white;
+  line-height: 22.4px;
+  margin: 0;
+  float: right;
+}
 
 .content2 {
   height: 20vh;
   background-image: url(../img/content-2.jpg);
   background-position: center;
   background-size: cover;
+}
+
+.text-box2 {
+  display: inline-block;
+  float: right;
+  height: 100%;
+  width: 50%;
+  padding: 12px 16px 12px 16px;
+  background-color: rgb(0, 150, 136);
+  position: static;
+}
+
+.text-box2 h4 {
+  height: 100%;
+  color: white;
+  line-height: 22.4px;
+  margin: 0;
+  float: right;
 }
