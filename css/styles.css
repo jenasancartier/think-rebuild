@@ -1,9 +1,9 @@
 /* For testing only */
 
-/**:not(body):not(html) {
+*:not(body):not(html) {
   box-sizing:border-box;
   border:1px dashed #000;
-}*/
+}
 
 .columns {
   min-height: 100px;
@@ -18,10 +18,25 @@
 }
 
 
-.main-content {
-  height: 60vh;
+.content-main {
+  background-image: url(../img/content-main.jpg);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
 }
 
-.main-content img {
-  width: 100%;
+
+.content1 {
+  height: 20vh;
+  background-image: url(../img/content-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.content2 {
+  height: 20vh;
+  background-image: url(../img/content-2.jpg);
+  background-position: center;
+  background-size: cover;
 }
