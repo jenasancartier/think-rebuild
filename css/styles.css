@@ -25,14 +25,14 @@ body {
 
 .content-main {
   background-image: url(../img/content-main.jpg);
-  height: 50vh;
+  height: 40vh;
   background-position: center;
   background-size: cover;
 }
 
 
 .content1 {
-  height: 20vh;
+  height: 15vh;
   background-image: url(../img/content-1.jpg);
   background-position: center;
   background-size: cover;
@@ -48,16 +48,20 @@ body {
   position: static;
 }
 
-.text-box h4 {
-  height: 100%;
+.primary-text {
   color: white;
   line-height: 22.4px;
-  margin: 0;
   float: right;
+  margin-bottom: 4px;
+}
+
+.secondary-text {
+  color: white;
+  font-size: 14px;
 }
 
 .content2 {
-  height: 20vh;
+  height: 15vh;
   background-image: url(../img/content-2.jpg);
   background-position: center;
   background-size: cover;
@@ -71,12 +75,4 @@ body {
   padding: 12px 16px 12px 16px;
   background-color: rgb(0, 150, 136);
   position: static;
-}
-
-.text-box2 h4 {
-  height: 100%;
-  color: white;
-  line-height: 22.4px;
-  margin: 0;
-  float: right;
 }
