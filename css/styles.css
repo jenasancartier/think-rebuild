@@ -28,8 +28,28 @@ body {
   height: 40vh;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
+.text-box-main {
+  background-color: rgb(38, 50, 56);
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+  right: 16px;
+  min-height: 208px;
+  padding: 0px 32px 0px 32px;
+  width: auto;
+  height: 10%;
+  box-sizing: content-box;
+  font-size: 16px;
+  text-size-adjust: 100%;
+  display: block;
+}
+
+.main-text {
+  color: white;
+}
 
 .content1 {
   height: 15vh;
@@ -38,7 +58,7 @@ body {
   background-size: cover;
 }
 
-.text-box {
+.text-box1 {
   display: inline-block;
   float: right;
   height: 100%;
@@ -58,6 +78,13 @@ body {
 .secondary-text {
   color: white;
   font-size: 14px;
+}
+
+.secondary-text.description {
+  color: white;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  -webkit-margin-before: 17.5px;
 }
 
 .content2 {
