@@ -10,6 +10,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.navbar {
+  background-color: white;
+}
+
 .columns {
   min-height: 100px;
 }
@@ -22,6 +26,31 @@ body {
   box-sizing: border-box;
 }
 
+.navbar {
+  position: relative;
+}
+
+.burger {
+  float: right;
+  margin-top: 25px;
+  margin-right: 25px;
+  height: 20px;
+}
+
+.logo{
+  height: 28px;
+  position: absolute;
+  top: 50%;
+  left: 3em;
+}
+
+.navlinks {
+  float: right;
+  margin-right: 25px;
+  margin-top: 25px;
+  font-size: 16px;
+  color: rgb(97, 97, 97);
+}
 
 .content-main {
   background-image: url(../img/content-main.jpg);
@@ -150,16 +179,16 @@ body {
 
   .content1 {
     width: 30vw;
-    height: 26vh;
+    height: 25.7vh;
     float: right;
   }
 
   .content2 {
     width: 30vw;
-    height: 26vh;
+    height: 25.7vh;
     float: right;
     position: absolute;
-    top: 49.4%;
+    top: 54%;
     right: 0;
   }
 
