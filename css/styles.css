@@ -10,6 +10,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.body {
+  width: 100vw;
+  height: 100vh;
+}
+
 .navbar {
   background-color: white;
 }
@@ -33,7 +38,7 @@ body {
 .burger {
   float: right;
   margin-top: 25px;
-  margin-right: 60px;
+  margin-right: 45px;
   height: 20px;
 }
 
@@ -139,15 +144,15 @@ body {
   .content1 {
     float: left;
     width: 50vw;
-    height: 25vh;
+    height: 40vh;
     position: relative;
     text-size-adjust: 100%;
   }
 
   .text-box1, .text-box2 {
-    height: 33%;
+    height: 25%;
     position: absolute;
-    top: 100%;
+    top: 75%;
     /*transform: translate(0, 50%);*/
     width: 100%;
   }
@@ -155,7 +160,7 @@ body {
   .content2 {
     float: right;
     width: 50vw;
-    height: 25vh;
+    height: 40vh;
     position: relative;
   }
 
@@ -174,22 +179,22 @@ body {
   .content-main {
     float: left;
     width: 70vw;
-    height: 68.3vh;
+    height: 70vh;
   }
 
   .content1 {
     width: 30vw;
-    height: 25.7vh;
+    height: 35vh;
     float: right;
+    text-size-adjust: 100%;
+    font-size: 100%;
   }
 
   .content2 {
     width: 30vw;
-    height: 25.7vh;
+    height: 35vh;
     float: right;
-    position: absolute;
-    top: 54%;
-    right: 0;
+    text-size-adjust: 100%;
   }
 
 }
